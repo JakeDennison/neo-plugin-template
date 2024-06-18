@@ -30,7 +30,7 @@ npm init
 2. Define a version
 3. Add a description
 4. Set the entry point as neo-plugin-template.js 
-5. leave test command empty
+5. Leave test command empty
 6. Enter your git repo
 7. Add any key words
 8. Add you name 
