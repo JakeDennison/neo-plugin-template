@@ -18,3 +18,79 @@ First, clone the repository to your local machine:
 ```sh
 git clone https://github.com/your-username/neo-plugin-template.git
 cd neo-plugin-template
+```
+
+### Step 2: Install Dependencies
+
+Install the necessary dependencies using npm:
+```sh
+npm install
+```
+
+### Step 4: Configure Contract
+
+Refer to https://help.nintex.com/en-US/formplugins/Reference/Reference.htm
+
+Contract is located in src/neo-plugin-template.js
+There is a single example contract property which is named src
+
+### Step 5: Build the plugin
+
+Refer to https://help.nintex.com/en-US/formplugins/Reference/GetStartedLit.htm
+
+Follow instructions for JavaScript
+The template contains notes explaining important parts of the plugin file.
+The template demonstrates consuming and using a control property in the form of message.
+Then gathering a response and returning that in response.
+
+### Step 6: Build the Project
+
+Build the project using Webpack:
+```sh
+npm run build
+```
+
+### Step 7 (Optional): Start the Development Server
+If you would like to host the plugin locally during development you can host it by doing the following:
+
+Build the project using Webpack:
+```sh
+npm start
+```
+
+This command will start a local server at http://localhost:8080, where you can view your Lit web component.
+
+You can enter the direct URL into the Plugins panel by using http://localhost:8080/dist/neo-plugin-template.js
+
+With this method the plugin will only work for you on your machine. 
+
+Please be aware this is not for production release, you can either upload the file or host it accordingly.
+
+### Project Structure
+Here's an overview of the project's structure:
+
+```
+neo-plugin-template/
+├── dist/                                   # Compiled output
+│   ├── neo-plugin-template.js              # Compiled file for use
+│   └── neo-plugin-template.js.LICENSE.txt  # Licence for output
+├── node_modules/                           # Node.js modules
+├── src/                                    # Source files
+│   └── neo-plugin-template.js              # Main JavaScript file
+├── package.json                            # Project metadata and scripts
+├── package-lock.json                       # Dependency tree lock file
+├── webpack.config.js                       # Webpack configuration
+└── README.md                               # This README file
+```
+
+### Available Scripts
+
+In the project directory, you can run the following scripts:
+
+    npm install: Installs project dependencies.
+    npm run build: Builds the project for production.
+    npm start: Starts the development server.
+
+### License
+
+This project is licensed under the UNLICENSED license.
