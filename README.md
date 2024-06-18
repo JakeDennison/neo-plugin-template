@@ -22,7 +22,22 @@ cd neo-plugin-template
 
 ### Step 2: Install Dependencies
 
+Initialise the plugin, follow the prompts to create the package.json.
+```sh
+npm init
+```
+1. Name your package
+2. Define a version
+3. Add a description
+4. Set the entry point as neo-plugin-template.js 
+5. leave test command empty
+6. Enter your git repo
+7. Add any key words
+8. Add you name 
+9. Please use UNLICENSED
+
 Install the necessary dependencies using npm:
+
 ```sh
 npm install
 ```
