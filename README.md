@@ -47,7 +47,11 @@ npm install
 Refer to https://help.nintex.com/en-US/formplugins/Reference/Reference.htm
 
 Contract is located in src/neo-plugin-template.js
-There is a single example contract property which is named src
+There is a simple example contract containing 2 properties.
+1. message
+2. response
+
+The contract also contains the event used to store values back into the form and workflow. 
 
 ### Step 5: Build the plugin
 
